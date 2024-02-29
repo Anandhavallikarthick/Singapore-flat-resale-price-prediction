@@ -1,7 +1,5 @@
 # Singapore-flat-resale-price-prediction
 
-# Singapore Resale Flat Prices Predicting
-
 ### **DOMAIN**: Real Estate
 
 ## **Problem Statement:**
