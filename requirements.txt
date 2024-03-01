@@ -1,12 +1,6 @@
-certifi
-charset-normalizer
-click
-geopy
-idna
 numpy
 pandas
-requests
+matplotlib
 streamlit
-streamlit-option-menu
-urllib3
+streamlit_option_menu
 scikit-learn
