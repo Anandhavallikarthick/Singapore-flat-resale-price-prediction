@@ -30,7 +30,8 @@ with st.sidebar:
 
 # About Project Section
 if selected == "About Project":
-    st.markdown("# :blue[Singapore Resale Flat Prices Prediction]")
+    st.markdown("# :red[Singapore Resale Flat Prices Prediction]")
+    st.image("/Users/karthickkumar/Desktop/singapore resale flat/A-Singles-Guide-to-Buying-an-HDB-Flat-1.jpeg")
     st.markdown('<div style="height: 50px;"></div>', unsafe_allow_html=True)
     st.markdown("### :blue[Technologies :] Python, Pandas, Numpy, Scikit-Learn, Streamlit, Python scripting, "
                 "Machine Learning, Data Preprocessing, Visualization, EDA, Model Building, Data Wrangling, "
@@ -44,7 +45,7 @@ if selected == "About Project":
                 "of the lease. The provision of customers with an expected resale price based on these criteria is "
                 "one of the ways in which a predictive model may assist in the overcoming of these obstacles.")
     st.markdown("### :blue[Domain :] Real Estate")
-
+    
 # Predictions Section
 if selected == "Predictions":
     st.markdown("# :blue[Predicting Results based on Trained Models]")
@@ -98,6 +99,6 @@ if selected == "Predictions":
                 # Make prediction
                 y_pred = loaded_model.predict(user_data)
                 st.write('## :green[Predicted resale price:] ', y_pred[0])
-
+                st.balloons()
             except Exception as e:
                 st.write("An error occurred:", e)
