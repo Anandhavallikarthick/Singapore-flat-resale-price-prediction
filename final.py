@@ -70,7 +70,7 @@ if selected == "Predictions":
         submit_button = st.form_submit_button(label="PREDICT RESALE PRICE")
 
         if submit_button:
-            try:
+            
                 with open("/Users/karthickkumar/Desktop/singapore resale flat/linearreg.pkl", 'rb') as file:
                     loaded_model = pickle.load(file)
 
@@ -101,5 +101,4 @@ if selected == "Predictions":
                 y_pred = loaded_model.predict(user_data)
                 st.write('## :green[Predicted resale price:] ', y_pred[0])
                 st.balloons()
-            except Exception as e:
-                st.write("An error occurred:", e)   
+             
