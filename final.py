@@ -31,6 +31,7 @@ with st.sidebar:
 # About Project Section
 if selected == "About Project":
     st.markdown("# :red[Singapore Resale Flat Prices Prediction]")
+    st.image("A-Singles-Guide-to-Buying-an-HDB-Flat-1.jpeg")
     st.markdown('<div style="height: 50px;"></div>', unsafe_allow_html=True)
     st.markdown("### :blue[Technologies :] Python, Pandas, Numpy, Scikit-Learn, Streamlit, Python scripting, "
                 "Machine Learning, Data Preprocessing, Visualization, EDA, Model Building, Data Wrangling, "
