@@ -49,7 +49,7 @@ if selected == "About Project":
 # Predictions Section
 if selected == "Predictions":
     st.markdown("# :blue[Predicting Results based on Trained Models]")
-    st.markdown("### :orange[Predicting Resale Price (Regression Task) (Accuracy: 97.7%)]")
+    st.markdown("### :orange[Predicting Resale Price (Regression Task) (Accuracy: 95.8%)]")
     
     with st.form('Regression'):
         month = st.number_input("Month")
