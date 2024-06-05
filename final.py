@@ -72,7 +72,7 @@ if selected == "Predictions":
 
         if submit_button:
             try:
-                with open("linearreg.pkl", 'rb') as file:
+                with open("linearreglasso.pkl", 'rb') as file:
                     loaded_model = pickle.load(file)
 
                 # Encode categorical variables
